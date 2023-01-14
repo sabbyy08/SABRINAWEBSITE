@@ -1,0 +1,33 @@
+body
+    {
+        background-color: rgb(205, 177, 231);
+    }
+
+a:link 
+    {
+        
+        color:rgba(150, 88, 230, 0.863);
+        background-color: beige;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }  
+a:visited
+    {
+        color:aliceblue;
+        background-color: rgba(104, 38, 148, 0.623);
+        text-decoration: none;
+    }
+a:hover
+    {
+        color: cornflowerblue;
+        background-color: rgb(209, 53, 230);
+        text-decoration: underline;
+    }
+a:active
+    {
+        color: rgb(123, 124, 216);
+        background-color: rgb(231, 99, 89);
+        text-decoration: none;
+    }

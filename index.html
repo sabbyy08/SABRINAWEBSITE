@@ -1,0 +1,102 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="clock_style.css">
+          <script type="text/javascript">
+            window.onload = setInterval(clock,1000);
+        
+            function clock()
+            {
+              var d = new Date();
+              
+              var date = d.getDate();
+              
+              var month = d.getMonth();
+              var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+              month=montharr[month];
+              
+              var year = d.getFullYear();
+              
+              var day = d.getDay();
+              var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+              day=dayarr[day];
+              
+              var hour =d.getHours();
+              var min = d.getMinutes();
+              var sec = d.getSeconds();
+            
+              document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+              document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+            }
+          </script>
+        </head>
+        
+        <body>
+           <p id="date"></p>
+           <p id="time"></p>
+        
+         </body>
+
+            <div style="text-align: center;">
+            <img src="images/uitm logo.png" width="500">
+            </div>
+            
+            <br>
+
+            <center>
+            <audio controls autoplay>
+                <source src="audio/interaksi tulus.ogg" type="audio/ogg">
+                <source src="audio/interaksi tulus.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>  
+            </center>
+
+        <p style="border: 5px dashed burlywood;"> 
+            
+            <title> Welcome to My Homepage </title> </p>
+        
+
+    </head>
+
+    <body background="images/background.jpg"></body>
+
+    <body>
+        <p>
+            <div style="text-align: center;">
+            <h1> <font color="#663333" <font size="15px"><b>WELCOME TO MY HOMEPAGE</b></font> </h1>
+            
+            <a href="index.html"><img src="images/HOMEPAGE.png" width="150"></a> 
+            <a href="biodata.html"><img src="images/BIODATA.png" width="130"></a> 
+            <a href="education.html"><img src="images/EDUCATION.png" width="150"></a>
+            <a href="experience.html"><img src="images/EXPERIENCE.png" width="155"></a>
+            <a href="family.html"><img src="images/FAMILY.png" width="119"></a>
+            <a href="friend.html"><img src="images/FRIEND.png" width="119"></a>
+            <a href="gallery.html"><img src="images/GALLERY.png" width="124"></a>
+
+            </div>
+
+            <h1 style="text-align: center;"> 
+                <img src="images/sabby.jpg" width="300"> 
+            </h1>
+
+                <br>
+                
+
+            <div style="text-align: center;">
+                <h1> <font color="#98639A"> <font size="5px"><u><i>Social Media:</u></i></font> </h1>
+                
+                    <a href="https://www.tiktok.com/@sabrinaizzatii_"><img src="images/tiktok.png" width="90"></a>
+                    <a href="https://www.instagram.com/sabrinaizzatii_/"><img src="images/instagram.png" width="50"></a>
+                
+            </div>   
+            
+        
+        </p>
+
+
+        <br>
+
+        <a href="#top">Back to top</a>
+        
+    </body>
+</html>
